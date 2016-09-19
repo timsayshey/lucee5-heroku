@@ -102,6 +102,9 @@
               <includes>
                 <include>**/*</include>
               </includes>
+              <excludes>
+                <exclude>*.xml</exclude>
+              </excludes>
               <followSymlinks>false</followSymlinks>
             </fileset>
             <fileset>

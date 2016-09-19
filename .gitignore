@@ -1,4 +1,6 @@
 .htaccess
 target
 Procfile
-temp/
+webroot/WEB-INF/lucee
+webroot/WEB-INF/lib
+webroot/WEB-INF/lucee-server
