@@ -103,7 +103,7 @@
                 <include>**/*</include>
               </includes>
               <excludes>
-                <exclude>*.xml</exclude>
+                <exclude>%regex[^(?!lucee-server.xml)((.*?).xml)]</exclude>
               </excludes>
               <followSymlinks>false</followSymlinks>
             </fileset>
